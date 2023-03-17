@@ -29,7 +29,7 @@ var zoomControl = new kakao.maps.ZoomControl();
 map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
 // Load the GeoJSON data from a file
-fetch('https://raw.githubusercontent.com/51939223/Okjung-Pochun/외곽선-5181.geojson')
+fetch('https://51939223.github.io/Okjung-Pochun/외곽선-5181.geojson')
     .then(response => response.json())
     .then(data => {
         // Create a layer using the GeoJSON data and add it to the map
